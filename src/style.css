@@ -54,18 +54,21 @@ main{
     display: flex;
 
 }
-.weatherappEmoji{
+.weatherappicon{
     font-size: 30px;
+    width: 88px;
+    height: 88px;
     margin-top: 5px;
+    
 }
 .weatherappTemperature{
-    font-size: 60px;
+    font-size: 88px;
     margin-left:10px ;
     font-weight:bold ;
 }
 .weatherappUnit{
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
     color: #921A40;
 }
