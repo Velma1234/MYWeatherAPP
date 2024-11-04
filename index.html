@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Weather App</title>
     <link rel="stylesheet" href="src/style.css">
+     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.0/math.min.js"></script>
+
 
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
 </head>
@@ -23,7 +26,7 @@
         <div class="weatherData">
         <div>
 
-        <h1 class="city" id="city">Nairobi</h1>
+        <h1 class="city" id="city"></h1>
         
         <p class="details">
             Monday 01:45 ,scattered clouds
@@ -36,8 +39,8 @@
 
         <div class="temperatureContainer">
             <p>
-                <div class="weatherappEmoji">⛅</div>
-                <div class="weatherappTemperature"> 12 </div>
+                <div class="weatherappEmoji" id="weatherappEmoji">⛅</div>
+                <div class="weatherappTemperature" id="weatherappTemperature"> 12 </div>
                 <div class="weatherappUnit">°C</div>
             </p>
         </div>
