@@ -1,4 +1,4 @@
-
+//search engine functionality
 function SearchSubmitButton(event){
     event.preventDefault();
     let searchInput = document.querySelector("#searchFormInput");
