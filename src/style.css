@@ -1,0 +1,12 @@
+body{
+    background-color: #F4D9D0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.MYWeatherAPP{
+    background-color:#D9ABAB ;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    box-shadow: 0 30px 50px rgba(65, 50,100, alpha);
+
+}
